@@ -1,4 +1,4 @@
-﻿### START PROGRAM
+﻿### PSEUDO CODE
 
 1. ASK user: "Please enter your name:"
 2. READ userName

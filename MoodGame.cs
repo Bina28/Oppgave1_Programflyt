@@ -16,11 +16,11 @@ public class MoodGame
         while (true)
         {
 
-            DisplayMessageBasedOnTime(DateTime.UtcNow);
+            DisplayMessageBasedOnTime(DateTime.Now);
             DisplayMoodOptions();
             int resultFromUserInput = _userInteraction.MoodInput();
             DispalyMessageBasedOnMood(resultFromUserInput);
-            if (!_userInteraction.ExitInput()) return;
+            if (!_userInteraction.IsUserContinueGame()) return;
         }
     }
 

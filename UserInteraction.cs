@@ -14,7 +14,7 @@ public class UserInteraction
         return input;
     }
 
-    public bool ExitInput()
+    public bool IsUserContinueGame()
     {
         Console.WriteLine("Press enter to go back to the main menu or any key to exit");
 
